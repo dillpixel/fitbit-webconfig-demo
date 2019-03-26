@@ -11,4 +11,4 @@ Below is a PHP example of a web form that will redirect the user back to the set
 </form>
 ```
 
-Demo link: https://gam.fitbit.com/gallery/app/6023bbf5-5999-4b36-a380-1218548f699d
+Demo link: https://gam.fitbit.com/gallery/clock/a56b9205-ca52-4853-b3d1-ae8acf3e85f6
