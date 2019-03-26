@@ -15,7 +15,7 @@ const Settings = (props) => {
               const pair = part.split("=")
               parameters[pair[0]] = pair[1]
             }
-            props.settingsStorage.setItem("name", parameters["name"])
+            props.settingsStorage.setItem("name", decodeURIComponent(parameters["name"]))
           }}
         />
       </Section>
