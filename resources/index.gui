@@ -1,6 +1,6 @@
 <svg viewport-fill="black">
   <use href="#mixed-text-center-mid" height="100%" fill="fb-magenta">
-    <set href="#header/text" attributeName="text-buffer" to="Redirect Demo"/>
-    <set href="#copy/text" attributeName="text-buffer" to="See app settings for a redirect demo."/>
+    <set href="#header/text" attributeName="text-buffer" to="Webconfig Demo"/>
+    <set href="#copy/text" attributeName="text-buffer" to="See app settings for a demo of the Webconfig component."/>
   </use>
 </svg>

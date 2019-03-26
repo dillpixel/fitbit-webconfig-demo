@@ -6,11 +6,7 @@ const Settings = (props) => {
           label={props.settingsStorage.getItem("name") || "Name"}
           status="Update"
           constructUrl={(returnUrl, callbackUrl) => {
-            let state = {
-              "callbackUrl": encodeURIComponent(callbackUrl),
-              "nonce": Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15)
-            }
-            return `https://dillpixel.com/clients/fitbit/redirect-demo?state=${encodeURIComponent(JSON.stringify(state))}`
+            return `https://dillpixel.com/clients/fitbit/webconfig-demo?state=${encodeURIComponent(callbackUrl)}`
           }}
           onReturn={(query) => {
             let parameters = {}
